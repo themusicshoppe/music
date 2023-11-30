@@ -166,6 +166,7 @@
             #generate.box {
                 justify-content: center;
                 background-color: #FFF0B9;
+                float: center;
             }
             #generator {
                 width: 100%;
