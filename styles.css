@@ -166,7 +166,7 @@
             #generate.box {
                 justify-content: center;
                 background-color: #FFF0B9;
-                float: center;
+                margin: auto;
             }
             #generator {
                 width: 100%;
@@ -213,7 +213,7 @@ h3 {
 }
 h4 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20pt;
+    font-size: 15pt;
     color: black;
     text-align: center;
     margin-top: -3px;
@@ -223,7 +223,7 @@ h4 {
 }
 h5 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12pt;
+    font-size: 11pt;
     color: black;
     text-align: center;
     margin-top: 0px;
