@@ -146,7 +146,18 @@
             button:hover {
                 filter: brightness(130%);
             }
-            
+
+             #box1, #box2, #box3, #box4, #box5, #box6, #generate.box {
+                width:7vmax;
+                height: 7vmax;
+                margin-bottom: 20%;
+                padding: 10px;
+                display: flex;
+                stroke-width: 5px;
+                stroke: white;
+                align-items: center;
+                justify-content: center;
+              }
             #buttons1 {
                 width: 100%;
                 display: flex;
@@ -389,7 +400,18 @@ p {
                 button:hover {
                     filter: brightness(130%);
                 }
-                
+
+                 #box1, #box2, #box3, #box4, #box5, #box6, #generate.box {
+                    width:5vmax;
+                    height: 5vmax;
+                    margin-bottom: 20%;
+                    padding: 10px;
+                    display: flex;
+                    stroke-width: 5px;
+                    stroke: white;
+                    align-items: center;
+                    justify-content: center;
+                  }
                 #buttons1 {
                     width: 100%;
                     display: flex;
