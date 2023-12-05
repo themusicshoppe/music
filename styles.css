@@ -49,12 +49,12 @@
         align-content: center;
     }
     svg {
-        width: 105%;
+        width: 102%;
         height: 20px;
         fill: white;
         box-align: center;
         display: flexbox;
-        margin: 0%;
+        margin: -2%;
     }
         #row{
             display: flex;
