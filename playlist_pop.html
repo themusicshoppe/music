@@ -57,13 +57,28 @@ background-size: cover;
 </br>
 </br>
 </br>
-  <form action="/action_page.php">
-    <div class="form-group">
-      <label style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:white;" for="email">Have questions or a song request? Email us!</label>
-      <input type="email" class="form-control" id="email">
-    </div>
-    <button type="submit" class="btn btn-default" style="background: #343536; color: white;">SUBMIT</button>
-</form>  
+    <p style="color:white">Have a question or a song request? Fill out this form!</p> 
+
+        <form action="mailto:MusicShoppe@gmail.com">
+          <div class="form-group">
+            <label for="question" style="color:white"> Question/Song Request </label>
+            <input type="text" class="form-control" id="Question">
+
+            <label for="name" style="color:white"> Name</label>
+            <input type="text" class="form-control" id="name">
+
+            <label for="email" style="color:white"> Email </label>
+            <input type="email" class="form-control" id="email"/>
+
+            <label for="phone" style="color:white"> Phone (###-###-####) </label>
+            <input type="tel" class="form-control" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"     required />
+
+            <label for="birthday" style="color:white"> Birthday </label>
+            <input type="date" class="form-control" id="birthday">
+
+          </div>
+          <button type="submit" class="btn btn-default" style="background: #343536; color: white">SUBMIT</button>
+</form> 
 
 </body>
 </html>
