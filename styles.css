@@ -264,9 +264,9 @@ p {
 @media all and (max-width: 600px) {
     #container {
         margin: 0 auto;
-        width: 100%;
+        width: 50vh;
         background-color:#B1C99E;
-        height:100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
     }
